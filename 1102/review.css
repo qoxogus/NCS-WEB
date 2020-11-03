@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1,h2{
+    margin: 10px;
+}
+
+header{
+    text-align: center;
+}
+header h1{
+    font-size: 3rem;
+}
+
+/*content*/
+#content{
+    display: flex;
+    margin: 0 auto;
+    /* background-color: grey; */
+}
+aside{
+    width: 20%;
+    margin: 0 auto;
+    text-align: center;
+}
+aside li{
+    list-style-type: none;
+}
+article{
+    width: 80%;
+}
