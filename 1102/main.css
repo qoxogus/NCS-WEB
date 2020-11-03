@@ -1,3 +1,14 @@
 header{
     text-align: center;
 }
+
+aside{
+    display: flex;
+    text-align: left;
+    margin: 35px;
+}
+
+aside ol{
+    border: 1px white solid;
+    width: 70px;
+}
