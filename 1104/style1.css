@@ -1,0 +1,47 @@
+/*초기화*/
+a{
+  text-decoration: none;
+  color: goldenrod;
+}
+li{
+  list-style: none;
+}
+body{
+  font-size: 0.7rem;
+}
+
+/*header--------------------*/
+.border-boxing{
+  border: 1px solid lightgray;
+  border-radius: 3px;
+  padding: 5px;
+}
+
+.border-boxing a{
+  border-left: 1px solid lightgray;
+  padding-left: 10px;
+}
+/*summary---------------------*/
+table, th, tr, td{
+  border: 1px solid lightgray;
+  border-spacing: 0;
+  text-align: center;
+}
+
+/*main-----------------------*/
+main{
+  display: flex;
+}
+aside{
+  width: 20%;
+  border-right: 1px solid lightgray;
+  margin: 10px;
+}
+article{
+  width: 80%;
+}
+.title{
+  padding-left: 20px;
+  color: darkgray;
+  border-bottom: 1px solid lightgray;
+}
